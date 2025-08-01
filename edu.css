@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.ed-section {
+  max-width: 800px;
+  margin: auto;
+  background: #170d01;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ed-section h2 {
+  border-bottom: 2px solid #e1810d;
+  padding-bottom: 10px;
+  color: #e6b111;
+  margin-bottom: 30px;
+}
+
+.ed-entry {
+  margin-bottom: 25px;
+}
+
+.ed-entry h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #e18319;
+}
+
+.school {
+  font-style: italic;
+  color: #f3ae6e;
+}
+
+.year {
+  color: #d8a925;
+  font-size: 0.9em;
+}
+
+.edu-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.edu-image img {
+  max-width: 100%;
+}
+
+.ed-section{
+position: relative;
+   width:100%;
+   background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url("edubackground.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   font-family: IBM Plex Sans, sans-serif;
+}
+
+
+.ed-entry {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(7, 94, 123, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.ed-entry:hover {
+  transform: scale(1.02);
+  background-color: rgba(14, 79, 123, 0.1);
+  box-shadow: 0 4px 15px rgba(31, 26, 5, 0.2);
+}
